@@ -1,0 +1,56 @@
+/*Select box model*/
+*{
+  box-sizing: border-box;
+}
+.body{
+  margin: 10px;
+  padding: 3px;
+  background-color: blue;
+}
+
+/*Style navigation bar*/
+.topnav{
+  overflow: hidden;
+  background-color: Pink;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 10px 14px;
+}
+
+.topnav a:hover{
+  background-color: grey;
+}
+.row{
+  border-radius: 20px;
+  border-color: black;
+  background-color: grey;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  width: 33.33%; /*3/100 since three paragraphs*/
+  float: left;
+  padding: 15px;
+}
+@media screen and (max-width: 600px) {
+  .column{
+    width:100%;
+  }
+}
+#one{
+
+}
+#two{
+
+}
+#three{
+
+}
